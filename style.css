@@ -29,10 +29,6 @@ ul {
     list-style: none;
 }
 
-.dashboard {
-    
-}
-
 ul.nav,
 ul.branding {
     font-weight: 600;
@@ -44,13 +40,11 @@ ul.branding {
   padding: 10px 0; 
 }
 
-.nav {
-
+.dashboard-icon {
+    max-height: 25px;
+    fill: white;
 }
 
-.branding {
-    
-}
 
 
 /* header */
@@ -203,11 +197,10 @@ form .search-icon {
     display: grid;
     grid-template-rows: auto 2fr auto;
     padding: 32px;
-    margin: 10px;
 }
 
 .box h4 {
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 5px;
 }
 
@@ -301,4 +294,4 @@ h3.trending {
 
 p {
     color: gray;
-}
+} 
